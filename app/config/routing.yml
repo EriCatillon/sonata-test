@@ -1,3 +1,7 @@
+multimedia_core:
+    resource: "@MultimediaCoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
